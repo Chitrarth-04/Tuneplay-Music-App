@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu_side">
+            <h1>Spotify</h1>
+            <div class="playlist">
+                <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i> Liked Songs </h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i> Playlists </h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i> Recently Played </h4>
+            </div>
+            <div class="menu_song">
+                <li class="songItem">
+                    <span>01</span>
+                    <img src="img/1.jpeg" alt="">
+                    <h5> Starboy <br> <div class="subtitle">The Weeknd</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle" id="1"></i>
+                </li>
+                <li class="songItem">
+                    <span>02</span>
+                    <img src="img/2.jpeg" alt="">
+                    <h5> Sunflower <br> <div class="subtitle">Post Malone</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle" id="2"></i>
+                </li>
+                <li class="songItem">
+                    <span>03</span>
+                    <img src="img/3.jpeg" alt="">
+                    <h5> Waiting for Love <br> <div class="subtitle">Avicii</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle" id="3"></i>
+                </li>
+                <li class="songItem">
+                    <span>04</span>
+                    <img src="img/4.jpeg" alt="">
+                    <h5> Sicko Mode <br> <div class="subtitle">Travis Scott</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle" id="4"></i>
+                </li>
+                <li class="songItem">
+                    <span>05</span>
+                    <img src="img/14.jpeg" alt="">
+                    <h5> Lucid Dreams <br> <div class="subtitle">Juice Wrld</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle" id="5"></i>
+                </li>
+                <li class="songItem">
+                    <span>06</span>
+                    <img src="img/12.jpeg" alt="">
+                    <h5> God's Plan <br> <div class="subtitle">Drake</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle" id="6"></i>
+                </li>
+                <li class="songItem">
+                    <span>07</span>
+                    <img src="img/20.jpeg" alt="">
+                    <h5> Love Yourself <br> <div class="subtitle">Justin Bieber</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle" id="7"></i>
+                </li>
+                <li class="songItem">
+                    <span>08</span>
+                    <img src="img/3.jpeg" alt="">
+                    <h5> The Color Violet <br> <div class="subtitle">Tony Loren</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle" id="8"></i>
+                </li>
+                <li class="songItem">
+                    <span>09</span>
+                    <img src="img/19.jpeg" alt="">
+                    <h5> Desi Kalakar <br> <div class="subtitle">Yo Yo Honey Singh</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle" id="9"></i>
+                </li>
+                <li class="songItem">
+                    <span>10</span>
+                    <img src="img/7.jpeg" alt="">
+                    <h5> Self Love <br> <div class="subtitle">Metro Booming</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle" id="10"></i>
+                </li>
+                <li class="songItem">
+                    <span>11</span>
+                    <img src="img/11.jpeg" alt="">
+                    <h5> Raindrops <br> <div class="subtitle">Future</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle" id="11"></i>
+                </li>
+                <li class="songItem">
+                    <span>12</span>
+                    <img src="img/4.jpeg" alt="">
+                    <h5> Heartless <br> <div class="subtitle">The Weeknd</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle" id="12"></i>
+                </li>
+            </div>
+        </div>
+
+
+        <div class="song_side">
+            <nav>
+                <ul>
+                    <li>DISCOVER <span></span></li>
+                    <li>MY LIBRARY</li>
+                    <li>RADIO</li>
+                </ul>
+                <div class="search">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder="Search Music...">
+                </div>
+            </nav>
+            <div class="content">
+                <h1>The Weeknd - After Hours</h1>
+                <p>My darkest hours Girl, I felt so alone inside of this crowded room diiferent girls on the floor, <br>distracting my thoughts of you I turned into the man I used to be, to be</br></p>
+                <div class="buttons">
+                    <button>PLAY</button>
+                    <button>FOLLOW</button>
+                </div>
+            </div>
+
+
+            <div class="popular_song">
+                <div class="h4">
+                    <h4>Popular Songs</h4>
+                    <div class="btn_s">
+                        <i class="bi bi-arrow-left-short" id="pop_song_left"></i>
+                        <i class="bi bi-arrow-right-short"id="pop_song_right"></i>></i>
+                    </div>
+                </div>
+                <div class="pop_song">
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/2.jpeg" alt=""> 
+                            <i class="bi playListPlay bi-play-circle" id="13"></i>
+                        </div>
+                        <h5> Sunflower <br> <div class="subtitle">Post Malone</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/2.jpeg" alt=""> 
+                            <i class="bi playListPlay bi-play-circle" id="14"></i>
+                        </div>
+                        <h5> Sunflower <br> <div class="subtitle">Post Malone</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/2.jpeg" alt=""> 
+                            <i class="bi playListPlay bi-play-circle" id="15"></i>
+                        </div>
+                        <h5> Sunflower <br> <div class="subtitle">Post Malone</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/2.jpeg" alt=""> 
+                            <i class="bi playListPlay bi-play-circle" id="16"></i>
+                        </div>
+                        <h5> Sunflower <br> <div class="subtitle">Post Malone</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/2.jpeg" alt=""> 
+                            <i class="bi playListPlay bi-play-circle" id="17"></i>
+                        </div>
+                        <h5> Sunflower <br> <div class="subtitle">Post Malone</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/2.jpeg" alt=""> 
+                            <i class="bi playListPlay bi-play-circle" id="18"></i>
+                        </div>
+                        <h5> Sunflower <br> <div class="subtitle">Post Malone</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/2.jpeg" alt=""> 
+                            <i class="bi playListPlay bi-play-circle" id="19"></i>
+                        </div>
+                        <h5> Sunflower <br> <div class="subtitle">Post Malone</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/2.jpeg" alt=""> 
+                            <i class="bi playListPlay bi-play-circle" id="20"></i>
+                        </div>
+                        <h5> Sunflower <br> <div class="subtitle">Post Malone</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/2.jpeg" alt=""> 
+                            <i class="bi playListPlay bi-play-circle" id="21"></i>
+                        </div>
+                        <h5> Sunflower <br> <div class="subtitle">Post Malone</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/2.jpeg" alt=""> 
+                            <i class="bi playListPlay bi-play-circle" id="22"></i>
+                        </div>
+                        <h5> Sunflower <br> <div class="subtitle">Post Malone</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/2.jpeg" alt=""> 
+                            <i class="bi playListPlay bi-play-circle" id="23"></i>
+                        </div>
+                        <h5> Sunflower <br> <div class="subtitle">Post Malone</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/2.jpeg" alt=""> 
+                            <i class="bi playListPlay bi-play-circle" id="24"></i>
+                        </div>
+                        <h5> Sunflower <br> <div class="subtitle">Post Malone</div>
+                        </h5>
+                    </li>
+                </div>
+            </div>
+            <div class="popular_artist">
+                <div class="h4">
+                    <h4>Popular Artists</h4>
+                    <div class="btn_s">
+                        <i class="bi bi-arrow-left-short"id='pop_art_left'></i>
+                        <i class="bi bi-arrow-right-short"id='pop_art_right'></i>
+                    </div>
+                </div>
+                <div class="items">
+                    <li>
+                        <img src="img/ad.jpeg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/drake 2.jpeg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/yo yo2.jpeg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/jb.jpeg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/wnd.jpeg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/metro.webp" alt="">
+                    </li>
+                    <li>
+                        <img src="img/posty.jpeg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/scoot.webp" alt="">
+                    </li>
+                    <li>
+                        <img src="img/dj.jpeg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/arijit.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/Taylor-Swift.webp" alt="">
+                    </li>
+                    <li>
+                        <img src="img/alan.jpeg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/parak.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/juicy.webp" alt="">
+                    </li>
+                </div>
+            </div>
+        </div>
+
+        <div class="master_play">
+            <div class="wave" id="wave">
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+            </div>
+            <img src="img/1.jpeg" alt="" id="Poster_master_play">
+            <h5 id="title">Starboy
+                <div class="subtitle">The Weeknd</div>
+            </h5>
+            <div class="icon">
+                <i class="bi shuffle bi-music-note-beamed">next</i>
+                <i class="bi bi-skip-start-fill"></i>
+                <i class="bi bi-play-circle-fill" id="masterPlay"></i>
+                <i class="bi bi-skip-end-fill"></i>
+                <i class="bi bi-download" id="download_music"></i>
+            </div>
+            <span id="currentStart">0:00</span>
+            <div class="bar">
+                <input type="range" id="seek" min="0" max="100">
+                <div class="bar2" id="bar2"></div>
+                <div class="dot"></div>
+            </div>
+            <span id="currentEnd">0:30</span>
+            <div class="vol">
+                <i class="bi bi-volume-up-fill" id="vol_icon"></i>
+                <input type="range" min="0" max="100" id="vol">
+                <div class="vol_bar"></div>
+                <div class="dot" id="vol_dot"></div>
+            </div>
+        </div>
+    </header>
+    <script src="app.js"></script>
+</body>
+</html>
